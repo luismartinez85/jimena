@@ -34,8 +34,11 @@ async function init() {
     }
 }
 
+let shownHistory = []; // Track shown items IDs
+
 function setLevel(level) {
     currentLevel = level;
+    shownHistory = []; // Reset history on level change
     
     // Update UI
     levelBtns.forEach(btn => {
@@ -62,8 +65,21 @@ function setLevel(level) {
 function showRandomItem() {
     if (filteredData.length === 0) return;
 
-    const randomIndex = Math.floor(Math.random() * filteredData.length);
-    const item = filteredData[randomIndex];
+    // Filter out items that have already been shown
+    let availableItems = filteredData.filter(item => !shownHistory.includes(item.id));
+
+    // Reset history if we reached the limit (33) or if we ran out of items
+    if (shownHistory.length >= 33 || availableItems.length === 0) {
+        console.log('Resetting history (Limit 33 or all shown)');
+        shownHistory = [];
+        availableItems = filteredData; // All items available again
+    }
+
+    const randomIndex = Math.floor(Math.random() * availableItems.length);
+    const item = availableItems[randomIndex];
+    
+    // Add to history
+    shownHistory.push(item.id);
     
     displayItem(item);
 }
@@ -98,12 +114,12 @@ nextBtn.addEventListener('click', () => {
 
     showRandomItem();
 
-    // Re-enable after 5 seconds
+    // Re-enable after 2 seconds
     setTimeout(() => {
         nextBtn.disabled = false;
         nextBtn.style.opacity = '1';
         nextBtn.style.cursor = 'pointer';
-    }, 5000);
+    }, 2000);
 });
 
 flipToBackBtn.addEventListener('click', (e) => {
