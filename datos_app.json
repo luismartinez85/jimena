@@ -1,0 +1,702 @@
+[
+  {
+    "id": 64,
+    "nivel": 2,
+    "descripcion": "Cometa viento",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 24,
+    "nivel": 1,
+    "descripcion": "Barco papel",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 25,
+    "nivel": 1,
+    "descripcion": "Pelota playa",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 90,
+    "nivel": 3,
+    "descripcion": "Monstruo barriendo",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 37,
+    "nivel": 2,
+    "descripcion": "Ardilla con bellota",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 18,
+    "nivel": 1,
+    "descripcion": "Estrella brillante",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 41,
+    "nivel": 2,
+    "descripcion": "Tiburón amigable",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 26,
+    "nivel": 1,
+    "descripcion": "Casa campo",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 65,
+    "nivel": 2,
+    "descripcion": "Muñeco nieve",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 12,
+    "nivel": 1,
+    "descripcion": "Banana abierta",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 99,
+    "nivel": 3,
+    "descripcion": "Hormiga pesada",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 76,
+    "nivel": 3,
+    "descripcion": "León chef",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 1,
+    "nivel": 1,
+    "descripcion": "León rugiendo",
+    "imagen_local": "1.webp",
+    "url_original": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-jW0zwFAUQgGkbG7ABewpeXrc/user-cUXW2llFcmwQz78wVDRN7Sjc/img-9GFqOOOP9Co0MEZrJqnaT0Gt.png?st=2025-12-27T08%3A33%3A13Z&se=2025-12-27T10%3A33%3A13Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-26T10%3A35%3A03Z&ske=2025-12-27T10%3A35%3A03Z&sks=b&skv=2024-08-04&sig=urR3wmTK44DVRiLgcOpJr7gwJhVbtsdAdMDqvnbf4TM%3D"
+  },
+  {
+    "id": 59,
+    "nivel": 2,
+    "descripcion": "Pájaro carpintero",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 3,
+    "nivel": 1,
+    "descripcion": "Jirafa alta",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 96,
+    "nivel": 3,
+    "descripcion": "Paracaidista torta",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 11,
+    "nivel": 1,
+    "descripcion": "Manzana roja",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 46,
+    "nivel": 2,
+    "descripcion": "Castillo arena",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 31,
+    "nivel": 1,
+    "descripcion": "Helado cono",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 42,
+    "nivel": 2,
+    "descripcion": "Pingüino nieve",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 53,
+    "nivel": 2,
+    "descripcion": "Pastel cumpleaños",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 27,
+    "nivel": 1,
+    "descripcion": "Árbol verde",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 23,
+    "nivel": 1,
+    "descripcion": "Avión azul",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 75,
+    "nivel": 3,
+    "descripcion": "Jardín planetas",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 82,
+    "nivel": 3,
+    "descripcion": "Ardilla inventora",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 20,
+    "nivel": 1,
+    "descripcion": "Arcoíris colores",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 60,
+    "nivel": 2,
+    "descripcion": "Oso miel",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 67,
+    "nivel": 2,
+    "descripcion": "Regalo sorpresa",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 72,
+    "nivel": 3,
+    "descripcion": "Ballena voladora",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 97,
+    "nivel": 3,
+    "descripcion": "Muñeco nieve chocolate",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 32,
+    "nivel": 1,
+    "descripcion": "Caramelo envuelto",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 100,
+    "nivel": 3,
+    "descripcion": "Nube lloviendo dulces",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 79,
+    "nivel": 3,
+    "descripcion": "Conejo mago",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 51,
+    "nivel": 2,
+    "descripcion": "Tesoro pirata",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 71,
+    "nivel": 3,
+    "descripcion": "Bosque dulces",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 94,
+    "nivel": 3,
+    "descripcion": "Cohete cartón",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 28,
+    "nivel": 1,
+    "descripcion": "Flor rosa",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 38,
+    "nivel": 2,
+    "descripcion": "Zorro dormido",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 21,
+    "nivel": 1,
+    "descripcion": "Auto rojo",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 6,
+    "nivel": 1,
+    "descripcion": "Mono con banana",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 69,
+    "nivel": 3,
+    "descripcion": "Ciudad nubes",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 39,
+    "nivel": 2,
+    "descripcion": "Oveja saltando",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 8,
+    "nivel": 1,
+    "descripcion": "Pollito amarillo",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 5,
+    "nivel": 1,
+    "descripcion": "Gato durmiendo",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 83,
+    "nivel": 3,
+    "descripcion": "Fábrica burbujas",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 22,
+    "nivel": 1,
+    "descripcion": "Tren juguete",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 13,
+    "nivel": 1,
+    "descripcion": "Sandía grande",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 49,
+    "nivel": 2,
+    "descripcion": "Alien verde",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 35,
+    "nivel": 1,
+    "descripcion": "Libro abierto",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 44,
+    "nivel": 2,
+    "descripcion": "Bicicleta cesta",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 7,
+    "nivel": 1,
+    "descripcion": "Tortuga lenta",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 77,
+    "nivel": 3,
+    "descripcion": "Cangrejo músico",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 17,
+    "nivel": 1,
+    "descripcion": "Luna blanca",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 56,
+    "nivel": 2,
+    "descripcion": "Dragón pequeño",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 74,
+    "nivel": 3,
+    "descripcion": "Biblioteca mágica",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 70,
+    "nivel": 3,
+    "descripcion": "Tren arcoíris",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 85,
+    "nivel": 3,
+    "descripcion": "Casa bota",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 68,
+    "nivel": 2,
+    "descripcion": "Mesa dibujo",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 54,
+    "nivel": 2,
+    "descripcion": "Pizza Pepperoni",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 43,
+    "nivel": 2,
+    "descripcion": "Camión helados",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 57,
+    "nivel": 2,
+    "descripcion": "Hada volando",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 81,
+    "nivel": 3,
+    "descripcion": "Dragón lector",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 92,
+    "nivel": 3,
+    "descripcion": "Carrera liebre tortuga",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 89,
+    "nivel": 3,
+    "descripcion": "Teléfono latas",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 40,
+    "nivel": 2,
+    "descripcion": "Delfín mar",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 78,
+    "nivel": 3,
+    "descripcion": "Montaña rusa dulces",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 88,
+    "nivel": 3,
+    "descripcion": "Oso polar sol",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 62,
+    "nivel": 2,
+    "descripcion": "Búho noche",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 91,
+    "nivel": 3,
+    "descripcion": "Orquesta sola",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 58,
+    "nivel": 2,
+    "descripcion": "Unicornio magia",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 2,
+    "nivel": 1,
+    "descripcion": "Elefante bañándose",
+    "imagen_local": "2.webp",
+    "url_original": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-jW0zwFAUQgGkbG7ABewpeXrc/user-cUXW2llFcmwQz78wVDRN7Sjc/img-AK9WfKZYOiA3PnKiE6khWFrl.png?st=2025-12-27T08%3A33%3A28Z&se=2025-12-27T10%3A33%3A28Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-27T04%3A02%3A30Z&ske=2025-12-28T04%3A02%3A30Z&sks=b&skv=2024-08-04&sig=FqngFndO9oxUWFJBB3kacwBdjEAG494um5W98d0sZiU%3D"
+  },
+  {
+    "id": 66,
+    "nivel": 2,
+    "descripcion": "Cámara fotos",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 87,
+    "nivel": 3,
+    "descripcion": "Mar gelatina",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 36,
+    "nivel": 1,
+    "descripcion": "Mochila azul",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 48,
+    "nivel": 2,
+    "descripcion": "Cohete espacial",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 50,
+    "nivel": 2,
+    "descripcion": "Robot bailando",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 52,
+    "nivel": 2,
+    "descripcion": "Pulpo artista",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 86,
+    "nivel": 3,
+    "descripcion": "Flores sonrientes",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 63,
+    "nivel": 2,
+    "descripcion": "Paraguas lluvia",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 9,
+    "nivel": 1,
+    "descripcion": "Vaca manchada",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 29,
+    "nivel": 1,
+    "descripcion": "Hongo rojo",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 61,
+    "nivel": 2,
+    "descripcion": "Ratón queso",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 80,
+    "nivel": 3,
+    "descripcion": "Oso astronauta",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 73,
+    "nivel": 3,
+    "descripcion": "Gato detective",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 19,
+    "nivel": 1,
+    "descripcion": "Nube blanca",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 93,
+    "nivel": 3,
+    "descripcion": "Árbol juguetes",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 98,
+    "nivel": 3,
+    "descripcion": "Detective dinosaurio",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 15,
+    "nivel": 1,
+    "descripcion": "Fresa dulce",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 14,
+    "nivel": 1,
+    "descripcion": "Uva morada",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 4,
+    "nivel": 1,
+    "descripcion": "Perro saltando",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 45,
+    "nivel": 2,
+    "descripcion": "Globo aerostático",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 95,
+    "nivel": 3,
+    "descripcion": "Picnic mar",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 84,
+    "nivel": 3,
+    "descripcion": "Pingüino surfista",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 30,
+    "nivel": 1,
+    "descripcion": "Mariposa azul",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 34,
+    "nivel": 1,
+    "descripcion": "Lápiz amarillo",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 33,
+    "nivel": 1,
+    "descripcion": "Donut chocolate",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 47,
+    "nivel": 2,
+    "descripcion": "Astronauta luna",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 55,
+    "nivel": 2,
+    "descripcion": "Hamburguesa gigante",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 10,
+    "nivel": 1,
+    "descripcion": "Búho ojos grandes",
+    "imagen_local": null,
+    "url_original": null
+  },
+  {
+    "id": 16,
+    "nivel": 1,
+    "descripcion": "Sol sonriente",
+    "imagen_local": null,
+    "url_original": null
+  }
+]

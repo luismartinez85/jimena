@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Local tools and debug
+download-files.js
+debug_output.txt
+
+# Antigravity brain
+.gemini/
+
+# OS files
+.DS_Store
+Thumbs.db

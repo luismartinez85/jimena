@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Jimena - Pedagogía Infantil</title>
+    <link rel="stylesheet" href="styles.css?v=4">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4CAF50">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Jimena</h1>
+            <div class="header-actions">
+                <div class="level-selector">
+                    <button class="level-btn active" data-level="1">1</button>
+                    <button class="level-btn" data-level="2">2</button>
+                    <button class="level-btn" data-level="3">3</button>
+                </div>
+                <button id="next-btn" class="next-header-btn" aria-label="Siguiente">
+                    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M8.59,16.59L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.59Z"/></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="card-container">
+            <div class="card" id="card">
+                <div class="card-face card-front">
+                    <img id="main-image" src="" alt="Imagen pedagógica">
+                    <button class="flip-btn" id="flip-to-back" aria-label="Ver descripción">
+                        <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12,4V1L8,5L12,9V6A8,8 0 0,1 20,14A8,8 0 0,1 12,22A8,8 0 0,1 4,14H2A10,10 0 0,0 12,24A10,10 0 0,0 22,14A10,10 0 0,0 12,4Z"/></svg>
+                    </button>
+                </div>
+                <div class="card-face card-back">
+                    <div class="description-content">
+                        <p id="description-text"></p>
+                    </div>
+                    <button class="flip-btn" id="flip-to-front" aria-label="Ver imagen">
+                        <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12,4V1L8,5L12,9V6A8,8 0 0,1 20,14A8,8 0 0,1 12,22A8,8 0 0,1 4,14H2A10,10 0 0,0 12,24A10,10 0 0,0 22,14A10,10 0 0,0 12,4Z"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer removed, next button moved to header -->
+
+    <script src="app.js?v=4"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js').then(reg => {
+                    reg.onupdatefound = () => {
+                        const installingWorker = reg.installing;
+                        installingWorker.onstatechange = () => {
+                            if (installingWorker.state === 'installed') {
+                                if (navigator.serviceWorker.controller) {
+                                    // New content is available, reload page
+                                    window.location.reload();
+                                }
+                            }
+                        };
+                    };
+                });
+            });
+        }
+    </script>
+</body>
+</html>

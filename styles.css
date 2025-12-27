@@ -1,0 +1,218 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #FFC107;
+    --accent-color: #2196F3;
+    --bg-color: #F5F5F5;
+    --text-color: #333;
+    --card-bg: #FFFFFF;
+    --description-bg: #E8F5E9;
+    /* Light green for description */
+    --font-family: 'Outfit', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    z-index: 10;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0;
+    flex-shrink: 0;
+}
+
+.level-selector {
+    display: flex;
+    gap: 5px;
+}
+
+.level-btn {
+    padding: 5px 10px;
+    border: 2px solid var(--primary-color);
+    background: transparent;
+    color: var(--primary-color);
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.85rem;
+}
+
+.next-header-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    color: #5D4037;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 3px 0 #FFA000;
+    transition: all 0.1s;
+}
+
+.next-header-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 #FFA000;
+}
+
+.level-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    /* Stuck to the top */
+    justify-content: center;
+    padding: 0 20px 20px 20px;
+    /* No top padding */
+    perspective: 1000px;
+    overflow-y: auto;
+    /* Allow scrolling if needed */
+}
+
+.card-container {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.card {
+    width: 100%;
+    max-height: 100%;
+    aspect-ratio: 1024 / 1792;
+    position: relative;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: white;
+}
+
+.card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-back {
+    background-color: var(--description-bg);
+    transform: rotateY(180deg);
+    padding: 30px;
+    text-align: center;
+}
+
+.description-content {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2E7D32;
+}
+
+.flip-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--primary-color);
+    z-index: 100;
+    /* Ensure it's on top of everything */
+    transition: transform 0.2s;
+}
+
+.flip-btn:active {
+    transform: scale(0.9);
+}
+
+.flip-btn svg {
+    width: 30px;
+    height: 30px;
+}
+
+/* Footer removed */
+
+/* Animations */
+@keyframes popIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.card-container {
+    animation: popIn 0.5s ease-out;
+}
