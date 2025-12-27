@@ -89,7 +89,21 @@ levelBtns.forEach(btn => {
 });
 
 nextBtn.addEventListener('click', () => {
+    if (nextBtn.disabled) return;
+
+    // Disable button
+    nextBtn.disabled = true;
+    nextBtn.style.opacity = '0.5';
+    nextBtn.style.cursor = 'not-allowed';
+
     showRandomItem();
+
+    // Re-enable after 5 seconds
+    setTimeout(() => {
+        nextBtn.disabled = false;
+        nextBtn.style.opacity = '1';
+        nextBtn.style.cursor = 'pointer';
+    }, 5000);
 });
 
 flipToBackBtn.addEventListener('click', (e) => {
