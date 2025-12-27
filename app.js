@@ -61,24 +61,17 @@ function setLevel(level) {
 
 function showRandomItem() {
     if (filteredData.length === 0) return;
+
+    const randomIndex = Math.floor(Math.random() * filteredData.length);
+    const item = filteredData[randomIndex];
     
-    // Reset flip state
-    card.classList.remove('flipped');
-    
-    // For testing: prioritize items with ID 1 and 2 if they are in the filtered list
-    let itemToShow;
-    const testItems = filteredData.filter(item => item.id === 1 || item.id === 2);
-    
-    if (testItems.length > 0 && Math.random() > 0.3) { // 70% chance to show test items if available
-        itemToShow = testItems[Math.floor(Math.random() * testItems.length)];
-    } else {
-        const randomIndex = Math.floor(Math.random() * filteredData.length);
-        itemToShow = filteredData[randomIndex];
-    }
-    
-    currentItem = itemToShow;
-    
-    // Update UI
+    displayItem(item);
+}
+
+function displayItem(item) {
+    currentItem = item;
+    card.classList.remove('flipped'); // Reset flip state when a new item is displayed
+
     if (currentItem.imagen_local) {
         mainImage.src = `imagenes_webp/${currentItem.imagen_local}`;
     } else {

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jimena-v3';
+const CACHE_NAME = 'jimena-v5';
 const ASSETS = [
   './',
   './index.html',
