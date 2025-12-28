@@ -46,7 +46,8 @@ header {
 .header-actions {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 40px;
+    /* Increased from 15px to add more space */
 }
 
 h1 {
@@ -54,6 +55,21 @@ h1 {
     color: var(--primary-color);
     margin-bottom: 0;
     flex-shrink: 0;
+}
+
+.level-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.level-label {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .level-selector {
@@ -74,8 +90,8 @@ h1 {
 }
 
 .next-header-btn {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: var(--secondary-color);
     color: #5D4037;
@@ -84,8 +100,13 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 0 3px 0 #FFA000;
+    box-shadow: 0 4px 0 #FFA000;
     transition: all 0.1s;
+}
+
+.next-header-btn svg {
+    width: 32px;
+    height: 32px;
 }
 
 .next-header-btn:active {

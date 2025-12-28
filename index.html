@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Jimena - Pedagogía Infantil</title>
-    <link rel="stylesheet" href="styles.css?v=8">
-    <link rel="manifest" href="manifest.json?v=8">
+    <link rel="stylesheet" href="styles.css?v=10">
+    <link rel="manifest" href="manifest.json?v=10">
     <meta name="theme-color" content="#4CAF50">
     <link rel="apple-touch-icon" href="icons/icon-192x192.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -17,13 +17,16 @@
         <div class="header-content">
             <h1>Jimena</h1>
             <div class="header-actions">
-                <div class="level-selector">
-                    <button class="level-btn active" data-level="1">1</button>
-                    <button class="level-btn" data-level="2">2</button>
-                    <button class="level-btn" data-level="3">3</button>
+                <div class="level-container">
+                    <span class="level-label">Niveles</span>
+                    <div class="level-selector">
+                        <button class="level-btn active" data-level="1">1</button>
+                        <button class="level-btn" data-level="2">2</button>
+                        <button class="level-btn" data-level="3">3</button>
+                    </div>
                 </div>
                 <button id="next-btn" class="next-header-btn" aria-label="Siguiente">
-                    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M8.59,16.59L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.59Z"/></svg>
+                    <svg viewBox="0 0 24 24" width="32" height="32"><path fill="currentColor" d="M8.59,16.59L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.59Z"/></svg>
                 </button>
             </div>
         </div>
@@ -52,7 +55,7 @@
 
     <!-- Footer removed, next button moved to header -->
 
-    <script src="app.js?v=8"></script>
+    <script src="app.js?v=10"></script>
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
